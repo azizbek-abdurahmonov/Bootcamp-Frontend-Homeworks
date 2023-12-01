@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .select-transition{
+        @apply transition duration-500;
+    }
+
+    .select-img {
+        @apply opacity-60 hover:opacity-100 active:opacity-100 focus:opacity-100 group-hover:opacity-100 group-active:opacity-100 group-focus:opacity-100;
+    }
+
+    .select-text{
+        @apply text-textSecondary hover:text-textPrimary focus:text-textPrimary active:text-textPrimary group-hover:text-textPrimary group-focus:text-textPrimary group-active:text-textPrimary;
+    }
+
+    .select-item {
+        @apply hover:bg-logoSecondary active:bg-logoSelected focus:bg-logoSelected group-hover:bg-logoSecondary group-active:bg-logoSelected group-focus:bg-logoSelected;
+    }
+}
