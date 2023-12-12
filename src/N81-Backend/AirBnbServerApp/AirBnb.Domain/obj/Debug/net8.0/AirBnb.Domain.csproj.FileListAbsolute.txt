@@ -1,0 +1,12 @@
+D:\PROJECTS\Frontend\src\N81-Backend\AirBnbServerApp\AirBnb.Domain\bin\Debug\net8.0\AirBnb.Domain.deps.json
+D:\PROJECTS\Frontend\src\N81-Backend\AirBnbServerApp\AirBnb.Domain\bin\Debug\net8.0\AirBnb.Domain.dll
+D:\PROJECTS\Frontend\src\N81-Backend\AirBnbServerApp\AirBnb.Domain\bin\Debug\net8.0\AirBnb.Domain.pdb
+D:\PROJECTS\Frontend\src\N81-Backend\AirBnbServerApp\AirBnb.Domain\obj\Debug\net8.0\AirBnb.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJECTS\Frontend\src\N81-Backend\AirBnbServerApp\AirBnb.Domain\obj\Debug\net8.0\AirBnb.Domain.AssemblyInfoInputs.cache
+D:\PROJECTS\Frontend\src\N81-Backend\AirBnbServerApp\AirBnb.Domain\obj\Debug\net8.0\AirBnb.Domain.AssemblyInfo.cs
+D:\PROJECTS\Frontend\src\N81-Backend\AirBnbServerApp\AirBnb.Domain\obj\Debug\net8.0\AirBnb.Domain.csproj.CoreCompileInputs.cache
+D:\PROJECTS\Frontend\src\N81-Backend\AirBnbServerApp\AirBnb.Domain\obj\Debug\net8.0\AirBnb.Domain.sourcelink.json
+D:\PROJECTS\Frontend\src\N81-Backend\AirBnbServerApp\AirBnb.Domain\obj\Debug\net8.0\AirBnb.Domain.dll
+D:\PROJECTS\Frontend\src\N81-Backend\AirBnbServerApp\AirBnb.Domain\obj\Debug\net8.0\refint\AirBnb.Domain.dll
+D:\PROJECTS\Frontend\src\N81-Backend\AirBnbServerApp\AirBnb.Domain\obj\Debug\net8.0\AirBnb.Domain.pdb
+D:\PROJECTS\Frontend\src\N81-Backend\AirBnbServerApp\AirBnb.Domain\obj\Debug\net8.0\ref\AirBnb.Domain.dll
