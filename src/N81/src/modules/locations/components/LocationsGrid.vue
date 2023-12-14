@@ -7,19 +7,15 @@
 </template>
 
 <script setup lang="ts">
-import { AirBnbApiClient } from '@/infrastructures/apiClients/airBnbApiClient/brokers/AirBnbApiClient';
-import type { Location } from '@/modules/models/Location';
-import { onBeforeMount, ref } from "vue";
 import LocationCard from '@/modules/locations/components/LocationCard.vue'
+import type { PropType } from 'vue';
 
-const airBnbApiClient = new AirBnbApiClient;
-
-const locations = ref<Location[]>([]);
-
-
-onBeforeMount(async () => {
-    const locationsResponse = await airBnbApiClient.location.getAsync();
-    locations.value = locationsResponse.response!;
+const props = defineProps({
+    locations:{
+        type:Array as PropType<Array<Location>>,
+        required:true
+    }
 });
+
 
 </script>

@@ -1,5 +1,21 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\07ba71dc-5579-4fec-9df1-80f94fbce804topofworld.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AirBnb.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AirBnb.Api</BasePath>
+      <RelativePath>07ba71dc-5579-4fec-9df1-80f94fbce804topofworld.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\07ba71dc-5579-4fec-9df1-80f94fbce804topofworld.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\491f5960-dc22-4a2d-a6e5-269092771844e1ccc42e-670-0.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AirBnb.Api</SourceId>
@@ -16,6 +32,54 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\491f5960-dc22-4a2d-a6e5-269092771844e1ccc42e-670-0.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\5e8bdc90-a601-4bc5-bb94-ff1a4ad7290e3ccacc04-2a74-4d02-a772-6991eb938fc6.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>AirBnb.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AirBnb.Api</BasePath>
+      <RelativePath>5e8bdc90-a601-4bc5-bb94-ff1a4ad7290e3ccacc04-2a74-4d02-a772-6991eb938fc6.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\5e8bdc90-a601-4bc5-bb94-ff1a4ad7290e3ccacc04-2a74-4d02-a772-6991eb938fc6.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\6f206c58-d3e0-4ec2-ad52-ddc672479e97categoryA.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AirBnb.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AirBnb.Api</BasePath>
+      <RelativePath>6f206c58-d3e0-4ec2-ad52-ddc672479e97categoryA.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\6f206c58-d3e0-4ec2-ad52-ddc672479e97categoryA.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\94a9cb61-2254-480b-8db2-7f9b69c693a9earthhomes.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AirBnb.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AirBnb.Api</BasePath>
+      <RelativePath>94a9cb61-2254-480b-8db2-7f9b69c693a9earthhomes.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\94a9cb61-2254-480b-8db2-7f9b69c693a9earthhomes.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\95753403-4fe0-4235-a837-96d340615c03zangiota-0-0-0-0-1582870018.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AirBnb.Api</SourceId>
@@ -31,6 +95,70 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\95753403-4fe0-4235-a837-96d340615c03zangiota-0-0-0-0-1582870018.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\a8eedcc9-e3b2-4de0-a7ff-44e4f813229c163cba9d-f65a-4d2a-ad59-618bf9cb9731.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>AirBnb.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AirBnb.Api</BasePath>
+      <RelativePath>a8eedcc9-e3b2-4de0-a7ff-44e4f813229c163cba9d-f65a-4d2a-ad59-618bf9cb9731.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\a8eedcc9-e3b2-4de0-a7ff-44e4f813229c163cba9d-f65a-4d2a-ad59-618bf9cb9731.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\c4a9b704-8aff-43ec-aef5-0714dcfa324ctashkent.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AirBnb.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AirBnb.Api</BasePath>
+      <RelativePath>c4a9b704-8aff-43ec-aef5-0714dcfa324ctashkent.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\c4a9b704-8aff-43ec-aef5-0714dcfa324ctashkent.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\d6e3cc4d-5dfe-435b-ab93-f8397c82014eparis.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AirBnb.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AirBnb.Api</BasePath>
+      <RelativePath>d6e3cc4d-5dfe-435b-ab93-f8397c82014eparis.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\d6e3cc4d-5dfe-435b-ab93-f8397c82014eparis.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\f6e162b5-9e2e-4d44-8012-caa10c82de1dcategoryB.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AirBnb.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AirBnb.Api</BasePath>
+      <RelativePath>f6e162b5-9e2e-4d44-8012-caa10c82de1dcategoryB.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\f6e162b5-9e2e-4d44-8012-caa10c82de1dcategoryB.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\f6e162b5-9e2e-4d44-8012-caa10c82de1de1ccc42e-670-0.jpg))">
       <SourceType>Package</SourceType>

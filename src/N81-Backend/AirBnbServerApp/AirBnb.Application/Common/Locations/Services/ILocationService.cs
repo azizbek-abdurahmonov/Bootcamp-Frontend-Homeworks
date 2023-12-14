@@ -19,4 +19,6 @@ public interface ILocationService
     ValueTask<Location?> DeleteAsync(Location location, bool saveChanges = true, CancellationToken cancellationToken = default);
 
     ValueTask<string> UploadImageAsync(Guid id, IFormFile image, string webRootPath, CancellationToken cancellationToken = default);
+
+    ValueTask<IQueryable<Location>> GetByCategoryIdAsync(Guid categoryId, CancellationToken  cancellationToken =  default);
 }

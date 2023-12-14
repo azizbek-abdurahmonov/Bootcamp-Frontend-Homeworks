@@ -35,6 +35,9 @@ namespace AirBnb.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<Guid>("CategoryId")
+                        .HasColumnType("uuid");
+
                     b.Property<string>("Days")
                         .IsRequired()
                         .HasColumnType("text");
@@ -53,6 +56,8 @@ namespace AirBnb.Persistence.Migrations
                         .HasColumnType("numeric");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
 
                     b.ToTable("Locations");
                 });
@@ -73,6 +78,22 @@ namespace AirBnb.Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("LocationCategories");
+                });
+
+            modelBuilder.Entity("AirBnb.Domain.Entities.Location", b =>
+                {
+                    b.HasOne("AirBnb.Domain.Entities.LocationCategory", "Category")
+                        .WithMany("Locations")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("AirBnb.Domain.Entities.LocationCategory", b =>
+                {
+                    b.Navigation("Locations");
                 });
 #pragma warning restore 612, 618
         }

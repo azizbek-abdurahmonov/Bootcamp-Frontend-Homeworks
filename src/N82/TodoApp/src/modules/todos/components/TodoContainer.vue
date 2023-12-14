@@ -3,7 +3,7 @@
     <!--
         w-[calc(100%-10rem)] 
     -->
-    <div class="flex flex-col items-center justify-center h-full w-full px-[20%] m-20">
+    <div class="flex flex-col items-center justify-center h-full w-full p-20 px-[20%] ">
 
         <!--Todo list-->
         <todo-list/>

@@ -1,7 +1,13 @@
 <template>
 
-    <div>
-        <todo-card v-for="todo in 10"/>
+    <div class="flex flex-col">
+        <todo-card/>
     </div>
 
 </template>
+
+<script setup lang="ts">
+
+    import TodoCard from './TodoCard.vue';
+
+</script>

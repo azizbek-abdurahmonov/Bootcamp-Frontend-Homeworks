@@ -1,7 +1,7 @@
 <template>
 
     <!-- Locations tab -->
-    <div class="fixed w-full top-0 pt-2 mt-20 z-10 bg-white flex items-center justify-center gap-4 content-padding">
+    <div  class="fixed w-full top-0 pt-2 mt-20 z-10 bg-white flex items-center justify-center gap-4 content-padding">
 
         <!-- Location previous pagination -->
         <div class="mb-3">
@@ -14,17 +14,10 @@
         </div>
 
         <!-- Locations categories -->
-        <div v-for="locationCategory in locationCategories" class="flex gap-6 md:gap-12 overflow-x-scroll no-scrollbar">
+        <div  class="flex gap-6 md:gap-12 overflow-x-scroll no-scrollbar">
 
-            <!--Category-->
-            <div class="h-[80px] select-common group min-w-[50px] flex flex-col justify-center items-center">
-                <img class="h-[24px] w-[24px] mb-2 select-logo-img select-transition"
-                    :src="locationCategory.imageUrl"
-                    alt="category bor:)">
-                <h5 class="text-xs font-medium select-text select-transition whitespace-nowrap">{{locationCategory.name}}</h5>
-                <div class="mt-[10px] w-4/5 h-[2px] select-item select-transition"></div>
-            </div>
-
+            <!--categories-->
+            <location-category-item v-for="locationCategory in locationCategories" :locationCategory="locationCategory" :selectedCategoryId="selectedCategoryId" :key="locationCategory.id" @change-category="onChangeLocation"/>
         </div>
 
         <!-- Location next pagination -->
@@ -64,18 +57,30 @@
 </template>
 
 <script setup lang="ts">
+import LocationCategoryItem from '@/modules/locations/components/LocationCategory.vue'
 import { AirBnbApiClient } from '@/infrastructures/apiClients/airBnbApiClient/brokers/AirBnbApiClient';
-import type { LocationCategory } from '@/modules/models/LocationCategory';
+import { LocationCategory } from '@/modules/models/LocationCategory';
 import { onBeforeMount, ref } from 'vue';
+import type { Guid } from 'guid-typescript';
 
 
 var airBnbApiClient = new AirBnbApiClient();
 
 const locationCategories = ref<LocationCategory[]>([]);
+const selectedCategoryId = ref<Guid>();
 
 onBeforeMount(async () => {
     const locationCategoriesResponse = await airBnbApiClient.locationCategory.getAsync();
     locationCategories.value = locationCategoriesResponse.response!;
 });
 
+const emit = defineEmits<{
+    changeCategory:[id:Guid]
+}>();
+
+// pinia
+const onChangeLocation = (id: Guid) => {
+    selectedCategoryId.value = id;
+    emit('changeCategory', id)
+}
 </script>

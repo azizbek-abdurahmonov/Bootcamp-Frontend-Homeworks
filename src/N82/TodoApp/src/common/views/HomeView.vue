@@ -1,7 +1,7 @@
 <template>
 
     <article    
-        class="bg-white flex flex-col w-full h-screen">
+        class="bg-white flex flex-col w-screen h-full">
         <!-- Header -->
 
         <!-- Content -->

@@ -2,6 +2,8 @@
 using AirBnb.Domain.Entities;
 using AirBnb.Persistence.Repositories.Interfaces;
 using Microsoft.AspNetCore.Http;
+
+//using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using System.Linq.Expressions;
@@ -30,6 +32,11 @@ public class LocationService(
     public IQueryable<Location> Get(Expression<Func<Location, bool>>? predicate = null, bool asNoTracking = false)
     {
         return locationRepository.Get(predicate, asNoTracking);
+    }
+
+    public ValueTask<IQueryable<Location>> GetByCategoryIdAsync(Guid categoryId, CancellationToken cancellationToken = default)
+    {
+        return new(locationRepository.Get().Where(location => location.CategoryId == categoryId));
     }
 
     public ValueTask<Location?> GetByIdAsync(Guid id, bool asNoTracking = false, CancellationToken cancellationToken = default)

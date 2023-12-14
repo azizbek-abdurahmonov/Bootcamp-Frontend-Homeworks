@@ -1,4 +1,5 @@
 ﻿using AirBnb.Domain.Common.Models;
+using System.Text.Json.Serialization;
 
 namespace AirBnb.Domain.Entities;
 
@@ -19,4 +20,9 @@ public class Location : IEntity
     public decimal Rate { get; set; }
 
     public string? ImageUrl { get; set; }
+
+    public Guid CategoryId { get; set; }
+
+    [JsonIgnore]
+    public virtual LocationCategory? Category { get; set; } = default;
 }

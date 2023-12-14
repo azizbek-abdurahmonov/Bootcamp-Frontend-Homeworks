@@ -19,6 +19,16 @@ public class LocationsController(ILocationService locationService) : ControllerB
         return new(result.Any() ? Ok(result) : NoContent());
     }
 
+    [HttpGet("filter/{categoryId:guid}")]
+    public async ValueTask<IActionResult> GetbyCategoryId(
+        [FromRoute] Guid categoryId,
+        [FromQuery] FilterPagination filterPagination)
+    {
+        var result = await locationService.GetByCategoryIdAsync(categoryId, HttpContext.RequestAborted);
+
+        return result.Any() ? Ok(result.ApplyPagination(filterPagination)) : NoContent();
+    }
+
     [HttpGet("{id:guid}")]
     public async ValueTask<IActionResult> GetById([FromRoute] Guid id, CancellationToken cancellationToken)
     {
