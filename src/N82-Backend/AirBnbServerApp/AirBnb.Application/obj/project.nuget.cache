@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "EzsgygkwHs/kB/u0ZVPPvD+pQC8u3Z+TMDbv4q8j6ZDiZaYGObw9TldRZd/VbZGle+A6PFeCsrpPYM9werTdOQ==",
+  "success": true,
+  "projectFilePath": "D:\\PROJECTS\\Frontend\\src\\N82-Backend\\AirBnbServerApp\\AirBnb.Application\\AirBnb.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\azizb\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\azizb\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\azizb\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
